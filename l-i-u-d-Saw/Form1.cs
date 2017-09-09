@@ -28,7 +28,7 @@ namespace l_i_u_d_Saw
         {
             if (authenticated(usernametextBox.Text, passwordtextBox.Text))
             {
-                MessageBox.Show("Successfully login","Login",MessageBoxButtons.OK,MessageBoxIcon.Information);
+                MessageBox.Show("Welcome \t "+usernametextBox.Text+ " \t you are Successfully login", "Login",MessageBoxButtons.OK,MessageBoxIcon.Information);
                 this.Hide();
                 firstForm o = new firstForm();
                 o.ShowDialog();

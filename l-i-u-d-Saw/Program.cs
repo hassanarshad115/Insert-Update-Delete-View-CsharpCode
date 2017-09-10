@@ -16,7 +16,7 @@ namespace l_i_u_d_Saw
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new sawForm());
         }
     }
 }
